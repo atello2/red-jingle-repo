@@ -10,8 +10,8 @@ echo -------------------------------------------------------
 echo 3DS Banner Jingle Extractor (Batch Mode)
 echo -------------------------------------------------------
 
-:: Loop through all .3ds files in the current directory
-:: Note: Rename your files to .3ds before running this!
+:: Loop through all .cci files in the current directory
+:: Note: Rename your files to .cci before running this!
 for %%f in (*.cci) do (
     echo [Processing] %%f...
     
@@ -50,4 +50,5 @@ for %%f in (*.cci) do (
 )
 
 echo Extraction Complete!
+
 pause
