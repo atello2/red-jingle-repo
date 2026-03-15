@@ -14,7 +14,7 @@ then
 fi
 if ! command -v python3 >/dev/null 2>&1
 then
-    echo "python3 could not be found. Please install python3 to your PATH."
+    echo "python3 could not be found. This is not required, but may cause problems, so we exit here anyways.."
     exit 1
 fi
 
